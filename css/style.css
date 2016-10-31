@@ -7,15 +7,14 @@
     overflow: hidden;
     background: #CCCC99;
     background-image:
-            linear-gradient(#ddd .5px, transparent 0),
-            linear-gradient(90deg, #ddd .5px, transparent 0),
+            linear-gradient(#ddd 1px, transparent 0),
+            linear-gradient(90deg, #ddd 1px, transparent 0),
             linear-gradient(hsla(0,0%,100%,.3) 1px,transparent 0);
             linear-gradient(90deg, hsla(0,0%,100%,.3) 1px,transparent 0);
     background-size: 35px 35px,35px 35px;
 }
 .content a{
     text-decoration: none;
-    color: #fff;
 }
 .content .contact{
     clear: both;
@@ -34,7 +33,6 @@
     margin-left: -256px;
     font-size: 40px;
     font-weight: 500;
-    color: #748A9E;
     opacity: 0;
     -webkit-transform:scale(0.5, 0.5);
     transform:scale(0.5, 0.5);
@@ -48,7 +46,7 @@
     height: 45px;
     margin-left: -256px;
     margin-top: 60px;
-    color: #748A9E;
+    color: #663300;
     opacity: 0;
     transition: all 1s;
     transform:rotate(180deg);
@@ -56,12 +54,11 @@
 .p11 {
     position: absolute;
     left: 50%; top: 15%;
-    width: 800px;
+    width: 700px;
     margin-left: -300px;
     margin-top: 130px;
     font-family: 楷体;
     font-size: 26px;
-    color: #727F8C;
     opacity: 0;
     transform:translate(200px,0);
     transition: all 1s;
@@ -73,10 +70,14 @@
     width: 510px;
     margin-left: -240px;
     margin-top: 240px;
+    color: goldenrod;
     opacity: 0;
-    color: #727F8C;
     transition: all 1s;
     transform:translate(0,200px);
+}
+
+.section5 .contact{
+    margin-top: 120px;
 }
 .active strong, .active h3{
     opacity: 1;
@@ -88,4 +89,75 @@
     opacity: 1;
     transform:scale(1, 1);
     transition-delay: 1.7s;
+}
+
+
+.img1 .div1, .img2 .div2{
+    display: inline-block;
+    width: 220px;
+    text-align: center;
+}
+.div1 span, .div2 span{
+    font-size: 16px;
+    font-family: 楷体;
+    display: block;
+}
+
+.img1{
+    position: absolute;
+    left: 50%; top: 15%;
+    width: 1000px;
+    margin-left: -500px;
+    margin-top: 110px;
+    font-family: 楷体;
+    font-size: 26px;
+    opacity: 0;
+    transform:translate(-200px,0);
+    transition: all 1s;
+}
+
+.img2{
+    position: absolute;
+    left: 45%;
+    top: 15%;
+    width: 700px;
+    margin-left: -300px;
+    margin-top: 320px;
+    opacity: 0;
+    transition: all 1s;
+    transform:rotate(180deg);
+}
+.active .img1, .active .img2{
+    opacity: 1;
+    transform:scale(1, 1);
+    transition-delay: 1.7s;
+}
+.section1 strong{
+   color:  #0099CC;
+}
+.section1 p{
+    color: goldenrod;
+}
+.section2 strong{
+    color:  #006633;
+}
+.section2 p a{
+    color: #336699;
+}
+.section2 .contact a{
+    color: #336699;
+}
+
+.section3 strong{
+    color:  #009999;
+}
+.section3 p{
+    color: #009999;
+}
+.section4 strong{
+    color: #CC6600;
+    margin-left: -400px;
+}
+.section4 span{
+    color: #CC6600;
 }
