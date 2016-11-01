@@ -75,7 +75,9 @@
     transition: all 1s;
     transform:translate(0,200px);
 }
-
+.section2 .contact{
+    margin-top: 260px;
+}
 .section5 .contact{
     margin-top: 120px;
 }
