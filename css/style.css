@@ -68,7 +68,7 @@
     left: 45%;
     top: 25%;
     width: 510px;
-    margin-left: -240px;
+    margin-left: -300px;
     margin-top: 240px;
     color: goldenrod;
     opacity: 0;
@@ -76,10 +76,12 @@
     transform:translate(0,200px);
 }
 .section2 .contact{
-    margin-top: 260px;
+    margin-top: 280px;
 }
-.section5 .contact{
-    margin-top: 120px;
+.section5 strong{
+    margin: 100px 0 0 0;
+    font-size: 60px;
+    font-style: oblique;
 }
 .active strong, .active h3{
     opacity: 1;
