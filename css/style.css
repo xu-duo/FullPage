@@ -78,6 +78,10 @@
 .section2 .contact{
     margin-top: 280px;
 }
+.section2 .contact span{
+    color: #336699;
+    font-size: 24px;
+}
 .section5 strong{
     margin: 100px 0 0 0;
     font-size: 60px;
